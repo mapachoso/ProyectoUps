@@ -1,6 +1,5 @@
 Proyecto de Deteccion de Ejercicios Corporales
 
-
 <div>Teachable Machine Pose Model</div>
 <button type="button" onclick="init()">Start</button>
 <div><canvas id="canvas"></canvas></div>
@@ -12,7 +11,7 @@ Proyecto de Deteccion de Ejercicios Corporales
     // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/pose
 
     // the link to your model provided by Teachable Machine export panel
-    const URL = "https://teachablemachine.withgoogle.com/models/tM3j6sRYj/";
+    const URL = "https://teachablemachine.withgoogle.com/models/CK0euViAa/";
     let model, webcam, ctx, labelContainer, maxPredictions;
 
     async function init() {
@@ -78,4 +77,3 @@ Proyecto de Deteccion de Ejercicios Corporales
         }
     }
 </script>
-
